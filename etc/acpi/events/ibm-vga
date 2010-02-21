@@ -1,0 +1,7 @@
+# 2009-06-11
+#
+# FN+F7
+
+event=ibm/hotkey HKEY 00000080 00001007
+
+action=/etc/acpi/actions/ibm-vga.sh

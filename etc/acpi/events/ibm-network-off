@@ -1,0 +1,7 @@
+# 2009-05-06
+#
+# FN+F5
+
+#event=ibm/hotkey HKEY 00000080 00001005
+
+#action=/etc/acpi/actions/ibm-network-off.sh

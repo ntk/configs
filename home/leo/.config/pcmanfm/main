@@ -1,0 +1,13 @@
+[General]
+show_hidden_files=1
+view_mode=1
+terminal=xterm
+
+[Window]
+width=1024
+height=753
+splitter_pos=160
+maximized=1
+
+[Desktop]
+[Interface]

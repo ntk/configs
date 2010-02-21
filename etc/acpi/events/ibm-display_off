@@ -1,0 +1,7 @@
+# 2009-05-02
+#
+# FN+F3
+
+event=ibm/hotkey HKEY 00000080 00001003
+
+action=/usr/bin/xset dpms force off

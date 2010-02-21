@@ -1,0 +1,164 @@
+<style type="text/css">
+	p	{ margin-top: 0; margin-bottom: 0; }
+	body	{ background-color: #ffffff; font-family: "Verdana"; font-size: 10pt; }
+	table	{ font-family: "Verdana"; font-size: 10pt; }
+	.standaard	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.kop-1	{ font-family: "Verdana"; font-size: 20pt; font-weight: bold; margin-left: 0pt; margin-top: 10pt; margin-bottom: 0; }
+	.kop-1-p	{ line-height: 0; margin-top: 8pt; }
+	.kop-2	{ font-family: "Verdana"; font-size: 16pt; font-weight: bold; margin-left: 0pt; margin-top: 9pt; margin-bottom: 0; }
+	.kop-2-p	{ line-height: 0; margin-top: 7pt; }
+	.kop-3	{ font-family: "Verdana"; font-size: 16pt; font-weight: bold; margin-left: 0pt; margin-top: 9pt; margin-bottom: 0; }
+	.kop-3-p	{ line-height: 0; margin-top: 7pt; }
+	.kop-4	{ font-family: "Verdana"; font-size: 12pt; font-weight: bold; margin-left: 0pt; margin-top: 2pt; margin-bottom: 0; }
+	.kop-4-p	{ line-height: 0; margin-top: 2pt; }
+	.kop-5	{ font-family: "Verdana"; font-size: 10pt; font-weight: bold; margin-left: 0pt; margin-top: 6pt; margin-bottom: 0; }
+	.kop-6	{ font-family: "Verdana"; font-size: 11pt; font-weight: bold; margin-left: 0pt; margin-top: 12pt; margin-bottom: 0; }
+	.kop-6-p	{ line-height: 0; margin-top: 3pt; }
+	.kop-7	{ font-family: "Verdana"; font-size: 12pt; margin-left: 0pt; margin-top: 12pt; margin-bottom: 0; }
+	.kop-7-p	{ line-height: 0; margin-top: 3pt; }
+	.kop-8	{ font-family: "Verdana"; font-size: 12pt; font-style: italic; margin-left: 0pt; margin-top: 12pt; margin-bottom: 0; }
+	.kop-8-p	{ line-height: 0; margin-top: 3pt; }
+	.kop-9	{ font-family: "Verdana"; font-size: 11pt; margin-left: 0pt; margin-top: 12pt; margin-bottom: 0; }
+	.kop-9-p	{ line-height: 0; margin-top: 3pt; }
+	.standaardalinea-lettertype	{ }
+	.d2hindexentry	{ display: none; }
+	.heading-base	{ font-family: "Verdana"; font-size: 10pt; font-weight: bold; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.platte-tekst	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 5pt; margin-bottom: 0; }
+	.lijst	{ font-family: "Verdana"; font-size: 10pt; margin-top: 5pt; margin-bottom: 0; }
+	.lijst-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 18pt; }
+	.definition	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 5.75pt; margin-bottom: 0; }
+	.body-text-table	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 5pt; margin-bottom: 0; }
+	.titel	{ font-family: "Verdana"; font-size: 36pt; font-weight: bold; text-align: right; margin-left: 0pt; margin-top: 12.1pt; margin-bottom: 0; }
+	.titel-p	{ line-height: 0; margin-top: 36.1pt; }
+	.byline	{ font-family: "Verdana"; font-size: 14pt; font-weight: bold; text-align: right; margin-left: 0pt; margin-top: 12.1pt; margin-bottom: 0; }
+	.byline-p	{ line-height: 0; margin-top: 36.1pt; }
+	.bijschrift	{ font-family: "Verdana"; font-size: 10pt; font-style: italic; margin-top: 0; margin-bottom: 0; }
+	.bijschrift-tab1	{ font-family: "Verdana"; font-size: 10pt; font-style: italic; margin-top: -12pt; margin-bottom: 0; margin-left: 18pt; }
+	.bijschrift-tab2	{ font-family: "Verdana"; font-size: 10pt; font-style: italic; margin-top: -12pt; margin-bottom: 0; margin-left: 36pt; }
+	.bijschrift-p	{ line-height: 0; margin-top: 8pt; }
+	.captiontable	{ font-family: "Verdana"; font-size: 10pt; font-style: italic; margin-top: 0; margin-bottom: 0; }
+	.captiontable-tab1	{ font-family: "Verdana"; font-size: 10pt; font-style: italic; margin-top: -12pt; margin-bottom: 0; margin-left: 18pt; }
+	.captiontable-tab2	{ font-family: "Verdana"; font-size: 10pt; font-style: italic; margin-top: -12pt; margin-bottom: 0; margin-left: 36pt; }
+	.captiontable-p	{ line-height: 0; margin-top: 8pt; }
+	.code-base	{ font-family: "Courier New"; font-size: 10pt; margin-left: 0pt; margin-top: 5pt; margin-bottom: 0; }
+	.codeexplained	{ font-family: "Courier New"; font-size: 10pt; margin-left: 36pt; margin-top: 5pt; margin-bottom: 0; }
+	.codeexplained-p	{ line-height: 0; margin-top: 2pt; }
+	.figures	{ font-family: "Verdana"; font-size: 10pt; margin-top: 3pt; margin-bottom: 0; }
+	.figures-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 18pt; }
+	.figures-tab2	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 36pt; }
+	.figures-p	{ line-height: 0; margin-top: 3pt; }
+	.figures-table	{ font-family: "Verdana"; font-size: 10pt; margin-top: 3pt; margin-bottom: 0; }
+	.figures-table-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 18pt; }
+	.figures-table-tab2	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 36pt; }
+	.figures-table-p	{ line-height: 0; margin-top: 3pt; }
+	.header-base	{ font-family: "Arial"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.voettekst	{ font-family: "Arial"; font-size: 10pt; margin-top: 0; margin-bottom: 0; }
+	.voettekst-tab1	{ font-family: "Arial"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 486pt; }
+	.voetnootmarkering	{ font-size: 8pt; }
+	.voetnoottekst	{ font-family: "Arial"; font-size: 10pt; font-weight: bold; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.glossaryterm	{ font-family: "Verdana"; font-size: 11pt; margin-left: 0pt; margin-top: 2pt; margin-bottom: 0; }
+	.glossaryterm-p	{ line-height: 0; margin-top: 2pt; }
+	.koptekst	{ font-family: "Arial"; font-size: 10pt; margin-top: 0; margin-bottom: 0; }
+	.koptekst-tab1	{ font-family: "Arial"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 486pt; }
+	.index-base	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.index-1	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.index-2	{ font-family: "Verdana"; font-size: 10pt; margin-left: 18pt; margin-top: 0; margin-bottom: 0; }
+	.index-3	{ font-family: "Verdana"; font-size: 10pt; margin-left: 36pt; margin-top: 0; margin-bottom: 0; }
+	.indexkop	{ font-family: "Verdana"; font-size: 11pt; font-weight: bold; margin-left: 0pt; margin-top: 15.1pt; margin-bottom: 0; }
+	.indexkop-p	{ line-height: 0; margin-top: 6.1pt; }
+	.jump-base	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.jump-base-p	{ line-height: 0; margin-top: 3pt; }
+	.jump	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.jump-p	{ line-height: 0; margin-top: 3pt; }
+	.jump-from-contents	{ font-family: "Verdana"; font-size: 11pt; font-weight: bold; margin-left: 0pt; margin-top: 1pt; margin-bottom: 0; }
+	.jump-from-contents-p	{ line-height: 0; margin-top: 3pt; }
+	.jump-from-list	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.jump-from-list-p	{ line-height: 0; margin-top: 3pt; }
+	.relatedhead	{ color: #0000ff; font-family: "Verdana"; font-size: 11pt; font-weight: bold; margin-left: 0pt; margin-top: 9pt; margin-bottom: 0; }
+	.relatedhead-p	{ line-height: 0; margin-top: 1pt; }
+	.keyword-link	{ color: #0000ff; font-family: "Verdana"; font-size: 11pt; font-weight: bold; margin-left: 0pt; margin-top: 9pt; margin-bottom: 0; }
+	.keyword-link-p	{ line-height: 0; margin-top: 1pt; }
+	.lijst-2	{ font-family: "Verdana"; font-size: 10pt; margin-top: 5pt; margin-bottom: 0; margin-left: 18pt; }
+	.lijst-2-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 36pt; }
+	.list-2-table	{ font-family: "Verdana"; font-size: 10pt; margin-top: 5pt; margin-bottom: 0; margin-left: 18pt; }
+	.list-2-table-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 36pt; }
+	.list-table	{ font-family: "Verdana"; font-size: 10pt; margin-top: 5pt; margin-bottom: 0; }
+	.list-table-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 18pt; }
+	.list-table-tab2	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 36pt; }
+	.margin-note	{ font-family: "Verdana"; font-size: 10pt; font-style: italic; margin-left: 0pt; margin-top: 3pt; margin-bottom: 0; }
+	.margin-note-p	{ line-height: 0; margin-top: 3pt; }
+	.standaard-inspringen	{ font-family: "Verdana"; font-size: 10pt; margin-left: 36pt; margin-top: 0; margin-bottom: 0; }
+	.note	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 9pt; margin-bottom: 0; padding-top: 1px; padding-bottom: 1px; border-color: #000000 black; border-style: solid; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px; }
+	.note-p	{ line-height: 0; margin-top: 9pt; }
+	.source	{ font-family: "Courier New"; font-size: 10pt; margin-top: 0; margin-bottom: 0; margin-left: 36pt; }
+	.source-tab1	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 54pt; }
+	.source-tab2	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 72pt; }
+	.source-tab3	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 90pt; }
+	.source-tab4	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 108pt; }
+	.source-tab5	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 126pt; }
+	.source-tab6	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 144pt; }
+	.source-tab7	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 162pt; }
+	.source-tab8	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 180pt; }
+	.source-tab9	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 198pt; }
+	.source-tab10	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 216pt; }
+	.source-tab11	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 234pt; }
+	.source-tab12	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 252pt; }
+	.source-tab13	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 270pt; }
+	.source-tab14	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 288pt; }
+	.source-tab15	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 306pt; }
+	.sourcetop	{ font-family: "Courier New"; font-size: 10pt; margin-top: 5.75pt; margin-bottom: 0; margin-left: 36pt; }
+	.sourcetop-tab1	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 54pt; }
+	.sourcetop-tab2	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 72pt; }
+	.sourcetop-tab3	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 90pt; }
+	.sourcetop-tab4	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 108pt; }
+	.sourcetop-tab5	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 126pt; }
+	.sourcetop-tab6	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 144pt; }
+	.sourcetop-tab7	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 162pt; }
+	.sourcetop-tab8	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 180pt; }
+	.sourcetop-tab9	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 198pt; }
+	.sourcetop-tab10	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 216pt; }
+	.sourcetop-tab11	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 234pt; }
+	.sourcetop-tab12	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 252pt; }
+	.sourcetop-tab13	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 270pt; }
+	.sourcetop-tab14	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 288pt; }
+	.sourcetop-tab15	{ font-family: "Courier New"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 306pt; }
+	.supertitle	{ font-family: "Verdana"; font-size: 14pt; font-weight: bold; text-align: right; margin-left: 72pt; margin-top: 48pt; margin-bottom: 0; }
+	.tableborder	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.tableheading	{ font-family: "Verdana"; font-size: 10pt; font-weight: bold; margin-left: 3.6pt; margin-top: 3pt; margin-bottom: 0; }
+	.tabletext	{ font-family: "Verdana"; font-size: 9pt; margin-left: 3.6pt; margin-top: 2pt; margin-bottom: 0; }
+	.tabletext-p	{ line-height: 0; margin-top: 2pt; }
+	.toc-base	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.inhopg-1	{ font-family: "Verdana"; font-size: 14pt; font-weight: bold; margin-left: 0pt; margin-top: 12pt; margin-bottom: 0; }
+	.inhopg-1-p	{ line-height: 0; margin-top: 6pt; }
+	.inhopg-2	{ font-family: "Verdana"; font-size: 11pt; margin-left: 0pt; margin-top: 3pt; margin-bottom: 0; }
+	.inhopg-2-p	{ line-height: 0; margin-top: 3pt; }
+	.inhopg-3	{ font-family: "Verdana"; font-size: 10pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.inhopg-4	{ font-family: "Verdana"; font-size: 10pt; margin-left: 108pt; margin-top: 0; margin-bottom: 0; }
+	.toctitle	{ font-family: "Verdana"; font-size: 24pt; font-weight: bold; margin-left: 0pt; margin-top: 9pt; margin-bottom: 0; }
+	.toctitle-p	{ line-height: 0; margin-top: 7pt; }
+	.d2hnogloss	{ }
+	.html	{ color: #008000; }
+	.c1h-bullet	{ font-family: "Verdana"; font-size: 10pt; margin-top: 5pt; margin-bottom: 0; margin-left: 18pt; }
+	.c1h-bullet-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 36pt; }
+	.normaal-web	{ font-family: "Verdana"; font-size: 12pt; margin-left: 0pt; margin-top: 0; margin-bottom: 0; }
+	.kop-bronvermelding	{ font-family: "Verdana"; font-size: 12pt; font-weight: bold; margin-left: 0pt; margin-top: 6pt; margin-bottom: 0; }
+	.lijstvoortzetting-2	{ font-family: "Verdana"; font-size: 10pt; margin-left: 36pt; margin-top: 0; margin-bottom: 0; }
+	.lijstvoortzetting-2-p	{ line-height: 0; margin-top: 6pt; }
+	.c1h-bullet-2	{ font-family: "Verdana"; font-size: 10pt; margin-top: 5pt; margin-bottom: 0; margin-left: 36pt; }
+	.c1h-bullet-2-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 54pt; }
+	.c1h-bullet-2a	{ font-family: "Verdana"; font-size: 10pt; margin-top: 5pt; margin-bottom: 0; margin-left: 36pt; }
+	.c1h-bullet-2a-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 54pt; }
+	.c1h-number	{ font-family: "Verdana"; font-size: 10pt; margin-top: 5pt; margin-bottom: 0; margin-left: 18pt; }
+	.c1h-number-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 36pt; }
+	.c1h-number-2	{ font-family: "Verdana"; font-size: 10pt; margin-top: 5pt; margin-bottom: 0; margin-left: 36pt; }
+	.c1h-number-2-tab1	{ font-family: "Verdana"; font-size: 10pt; margin-top: -12pt; margin-bottom: 0; margin-left: 54pt; }
+	.c1h-continue	{ font-family: "Verdana"; font-size: 10pt; margin-left: 36pt; margin-top: 5pt; margin-bottom: 0; }
+	.c1h-continue-2	{ font-family: "Verdana"; font-size: 10pt; margin-left: 54pt; margin-top: 5pt; margin-bottom: 0; }
+	.c1h-jump	{ }
+	.c1h-popup	{ }
+	.c1h-index	{ color: #000000; }
+	.midtopic	{ font-family: "Verdana"; font-size: 16pt; font-weight: bold; margin-left: 0pt; margin-top: 9pt; margin-bottom: 0; }
+	.midtopic-p	{ line-height: 0; margin-top: 7pt; }
+	.whatsthis	{ font-family: "Verdana"; font-size: 16pt; font-weight: bold; margin-left: 0pt; margin-top: 9pt; margin-bottom: 0; }
+	.whatsthis-p	{ line-height: 0; margin-top: 7pt; }
+</style>

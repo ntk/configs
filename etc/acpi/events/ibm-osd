@@ -1,0 +1,6 @@
+# 2009-05-01
+#
+# FN+F9
+
+event=ibm/hotkey HKEY 00000080 00001009
+action=/etc/acpi/actions/ibm-osd.sh

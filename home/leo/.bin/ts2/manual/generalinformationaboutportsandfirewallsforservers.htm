@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>General information about ports and firewalls for servers</title>
+<link rel="stylesheet" href="C1H_HTML.css" type="text/css">
+<style type="text/css">
+ p { margin-top: 0; margin-bottom: 0; }
+</style>
+<script language="JavaScript" src="DocToHelp.js">
+</script>
+</head>
+<body
+ style="background-color: #FFFFFF;
+        background-image: url(none);
+        background-repeat: no-repeat;"
+ onload="d2hload()"
+ onmousedown="d2hpopup()"
+>
+<div id="ienav">
+<ilayer id="nsnav">
+<p align="center">
+
+<a href="ts03-toc.htm" target="left">Contents</a> &nbsp;
+
+
+<a href="ts03-index.htm" target="right">Index</a> &nbsp;
+
+
+
+<a href="howitworks.htm">Previous</a> &nbsp;
+<a href="featurelist.htm">Next</a>
+
+
+</p>
+<br>
+<hr noshade size="1">
+</ilayer>
+</div>
+<p class=kop-3>General information about ports and firewalls for servers</p>
+<p class=kop-3-p>&nbsp;</p>
+<p class=platte-tekst>If you are using a firewall TeamSpeak requires to have 
+  an UDP port open. The standard port for this is UDP port 8767 but can be configured 
+  in the server.ini file of the TeamSpeak server. </p>
+<p class=platte-tekst>For the server you only need that UDP port for normal operation. If you want to have webadmin access you need to open TCP port 14534 and for telnet access TCP port 51234. These are both the standard ports but can be changed in the server.ini file. </p>
+<p class=platte-tekst>You can use TeamSpeak 2 even if you are behind a firewall with NAT. You&#8217;ll have to ask your firewall admin (might be you yourself) to forward the UDP port 8767 (the standard port, it can be configured though) to your computer or use connection tracking in the firewall rules.</p>
+<p>&nbsp;</p>
+<div id="popupDiv">
+</div>
+</body>
+</html>

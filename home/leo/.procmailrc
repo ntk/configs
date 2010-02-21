@@ -1,0 +1,41 @@
+# Set path #
+#PATH=/bin:/usr/bin:/usr/local/bin:/opt/local/bin/:$HOME/bin:$HOME:
+SENDMAIL=/usr/sbin/sendmail
+SHELL=/bin/zsh
+MAILDIR=$HOME/.mailspool         # all mailboxes are in .mailspool/
+DEFAULT=$HOME/.mailspool/default
+# Set on when debugging #
+#VERBOSE=on
+VERBOSE=off
+# Directory for storing procmail log and rc files
+LOGFILE=$MAILDIR/.log/`date +%m-%d-%y`
+# Set environment variables #
+UMASK=077
+LOCKTIMEOUT=1024
+TIMEOUT=960
+SUSPEND=16
+LINEBUF=4096
+# rc files to be included #
+#INCLUDERC=$PMDIR/rc.sinkspam
+#INCLUDERC=$PMDIR/rc.autoinfo
+#INCLUDERC=$PMDIR/rc.autosend
+#INCLUDERC=$PMDIR/rc.ftpmail
+#INCLUDERC=$PMDIR/rc.mllist
+
+################################
+#      move to mailboxes       #
+################################
+
+:0:
+* ^(From|Cc|To).*([FIN]|[FIN-INTERN])
+fin
+
+
+################################
+#     forward and aliases      #
+################################
+# forward to your_logname@other.domain
+#:0
+#* ^TO.*your_login_name@hostname.domain
+#! your_logname@other.domain
+

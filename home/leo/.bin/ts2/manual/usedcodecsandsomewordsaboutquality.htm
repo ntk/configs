@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Used codecs and some words about quality</title>
+<link rel="stylesheet" href="C1H_HTML.css" type="text/css">
+<style type="text/css">
+ p { margin-top: 0; margin-bottom: 0; }
+</style>
+<script language="JavaScript" src="DocToHelp.js">
+</script>
+</head>
+<body
+ style="background-color: #FFFFFF;
+        background-image: url(none);
+        background-repeat: no-repeat;"
+ onload="d2hload()"
+ onmousedown="d2hpopup()"
+>
+<div id="ienav">
+<ilayer id="nsnav">
+<p align="center">
+
+<a href="ts03-toc.htm" target="left">Contents</a> &nbsp;
+
+
+<a href="ts03-index.htm" target="right">Index</a> &nbsp;
+
+
+
+<a href="whatdoineedforts.htm">Previous</a> &nbsp;
+<a href="howitworks.htm">Next</a>
+
+
+</p>
+<br>
+<hr noshade size="1">
+</ilayer>
+</div>
+<p class=kop-3>Used codecs, bandwidth and some words about quality</p>
+<p class=kop-3-p>&nbsp;</p>
+<p class=platte-tekst">TeamSpeak has a variety of quality settings which can be achieved in several ways. The most important part is the “codec” used. A codec is the protocol standard that specifies how your voice should be digitized so it can be sent to an other computer. Different codecs produce different results. Usualy a codec is optimized to send the best possible sound, while compressng the sound to a very small specified bitrate stream. What codec you are using is set by the server you are connecting to. If you are on a modem and a crappy line the CELP codecs are a nice option, if you are on cable or DSL then you can use the GSM codecs. If you are  running a server yourself you should take your users into account. If they all are modem users and like to game, you will want to use the lowest codecs (CELP), if they are all cable or DSL users the GSM codecs are good. </p>
+<p class=platte-tekst>The CELP codecs produce a “robotic” voice quality because of their severe compression methods. Don&#8217;t let this scare you off, the codec produces an understandable and clear voice. </p>
+<p class=platte-tekst>The GSM codecs produce a very clear and natural sound which can be compared to (you guessed it) the sound quality of cellular phones. The amount of data-traffic can be calculated with the next formula (for people who pay per megabyte of traffic): </p>
+<p class=platte-tekst>Codec kilobits x the number of persons on the server x 450 = amount of traffic in Kilobytes in hours (if one talks continuously). For a reallife example: GSM 16.4 kilobits x 10 persons x 450 = 73800 Kilobytes per hour (aprox. 74 MegaByte). Mind you that this is when someone talks for one hour straight! (a very rare case).</p>
+<p class=platte-tekst>In order to calculate what your connection is capable of, 
+  take the codec kilobits and multiply it with the amount of users. For example: 
+  GSM 16.4 Kilobits x 10 persons = 164 Kilobits per second. </p>
+<p>&nbsp;</p>
+<p><b>NOTE: When more people speak at once the upload is additional. If 2 people 
+  talk 2 times as much trafic is send!</b></p>
+<p class=platte-tekst>&nbsp; </p>
+</body>
+</html>

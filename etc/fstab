@@ -1,0 +1,18 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>        <dir>         <type>    <options>                   <dump> <pass>
+none                   /dev/pts      devpts    defaults                      0      0
+none                   /dev/shm      tmpfs     defaults                      0      0
+
+/dev/cdrom              /media/cd   auto    ro,user,noauto,unhide            0      0
+#/dev/dvd               /media/dvd  auto    ro,user,noauto,unhide            0      0
+#/dev/fd0               /media/fl   auto    user,noauto                      0      0
+
+/dev/sda1                 /boot      ext2      defaults                      0      1
+/dev/mapper/vg01-root     /          ext4      defaults                      0      1
+/dev/mapper/vg01-home     /home      ext4      defaults                      0      1
+/dev/mapper/vg01-swap     swap       swap      defaults                      0      0
+#/dev/sda1 /mnt/sda1  ntfs-3g   users,uid=1000,gid=100,fmask=0113,dmask=0002 0      0
+
+#/dev/sdb1                /mnt/sdb1  vfat      users,noauto                  0      0

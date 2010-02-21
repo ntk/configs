@@ -1,0 +1,34 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=xclock)
+  [Deco]	{NONE}
+[end]
+[app] (name=xterm)
+  [Workspace]	{0}
+  [Dimensions]	{966 718}
+  [Position]	(CENTER)	{0 0}
+  [Sticky]	{yes}
+  [Jump]	{yes}
+[end]
+[app] (name=evince)
+  [Workspace]	{2}
+  [Dimensions]	{600 615}
+  [Position]	(UPPERLEFT)	{0 0}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (class=Shiretoko) {1}
+  [Workspace]	{3}
+  [Dimensions]	{1024 755}
+  [Position]	(UPPERLEFT)	{0 67}
+[end]
+[app] (class=Thunderbird-bin) {1}
+  [Workspace]	{2}
+  [Dimensions]	{1024 755}
+  [Position]	(UPPERLEFT)	{0 67}
+[end]
+[app] (class=ipager) {1}
+  [Layer]	{4}
+[end]

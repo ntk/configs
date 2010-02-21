@@ -1,0 +1,103 @@
+Skype for Linux 2.0 README
+
+INSTALLATION
+============
+
+If you are using one of the distribution-specific packages, simply run the
+"skype" executable.  KDE users should find a launcher for Skype in their
+Internet menu if Skype has been installed through one of these packages.
+
+If you are using the dynamic and statically linked generic versions, you
+will need to choose a path for Skype to exist in.  We recommend copying the
+skype binary to /usr/bin and installing sounds/, lang/ and avatars/ into
+the /usr/share/skype directory.
+
+NOTES FOR 1.3 USERS
+===================
+
+* Contact List Groups are not yet implemented in Skype 1.4 and 2.0.
+
+KNOWN ISSUES
+============
+
+Audio
+
+  * If you have a USB device and are getting sound output on one side only, 
+    try using the plughw: device in Sound Devices instead.
+
+  * If you have a normal sound card, we recommend using the Default sound 
+    device for now. Sound output to hw: specific or plughw: specific devices 
+    may not work for all sound cards, or may result in single-channel 
+    playback or loss of sound mixing support on your system.
+
+Chats
+
+  * Selections behaviour is unpredictable in right-to-left languages.
+  * Resizing chat windows which contain a lot of content, or hiding/unhiding 
+    the userlist can be very slow.
+
+File Transfers
+
+  * There is currently no File Overwrite confirmation dialog.
+    - Files will be automatically renamed currently to avoid overwriting.
+
+Options Dialog
+
+  * Changing between Options screens without saving could lose your new 
+    options.
+    Options are only currently saved on a screen by screen basis. There is 
+    currently no warning when you try to change options screens or exit the 
+    options dialog with unsaved changes.
+
+Video
+
+  * If you use the closed ATi fglrx driver, please run Catylyst 8.xx series
+    or later (or 8.40.x or later of the old numbering scheme).
+
+  * If you have a webcam that uses the uvc driver, please ensure you are
+    running uvc r166 or later.
+
+  * If you are on a 64-bit system and Skype says 'No devices found', you may
+    need to upgrade your webcam drivers.  This is especially true of gspca
+    and uvc on Ubuntu 7.xx releases.
+
+HOTKEYS
+=======
+Main Window:
+  Ctrl+E                Switch between Events History and Contact List
+  Ctrl+U                Show/Hide Offline Contacts
+  Ctrl+W                Hide Main Skype Window
+  Ctrl+Q                Quit Skype
+
+Chat Window:
+  Ctrl+F                Find/Search this Chat
+  F3/Shift-F3           Find Next/Previous Match (use after Ctrl+F)
+  Ctrl+W                Close/Hide Chat Window
+
+Quickfilter:
+  F6                    Jump to Quickfilter
+  Escape                Clear Quickfilter
+
+COMMAND-LINE OPTIONS
+====================
+
+  --dbpath=<path>       Specify an alternative path to store Skype data files
+                        Default: ~/.Skype
+  --resources=<path>    Specify a path where Skype can find its resource files
+                        Default: /usr/share/skype
+  --disable-api         Disable initialisation of the Skype Public API
+  --disable-cleanlooks  Disable forced use of the Cleanlooks Qt style
+                        Use this option together with Qt's -style <style>
+                        command to set a custom Qt style for Skype.
+  --version             Display version information
+
+SUPPORT
+=======
+
+You can obtain support from the community via our online forums:
+
+http://forum.skype.com/index.php?showforum=18
+
+If you find a bug, this can be filed in our online bug tracking system:
+
+https://developer.skype.com/jira/browse/SCL

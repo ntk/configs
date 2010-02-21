@@ -1,0 +1,14 @@
+<style type="text/css">
+	p	{ margin-top: 0; margin-bottom: 0; }
+	div p	{ margin-top: 0; margin-bottom: 0; }
+	body	{ background-color: #ffffff; font-family: "Verdana", "Arial", sans-serif; font-size: 10pt; }
+	img	{ cursor: hand; }
+	span	{ cursor: hand; }
+	a:link	{ text-decoration: none; }
+	a:visited	{ text-decoration: none; }
+	.toc	{ margin-left: 20px; text-indent:-0.21in; }
+	.index	{ margin-left: 20px; text-indent:-0.21in; white-space:nowrap; }
+	.topic	{ margin-left: 20px; text-indent:-0.21in; }
+	.caption	{ font-weight: bold; margin-bottom: 6pt; white-space:nowrap; }
+	.back	{ margin-top: 12px; text-align: right; }
+</style>

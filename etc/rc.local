@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user startup script.
+#
+# Disable System Beep
+# setterm -blength 0 > /dev/vc/1
+# setterm -blength 0 > /dev/vc/2
+# setterm -blength 0 > /dev/vc/3
+# setterm -blength 0 > /dev/vc/4
+# setterm -blength 0 > /dev/vc/5
+# setterm -blength 0 > /dev/vc/6
+# setterm -blength 0 > /dev/vc/7
+# setterm -blength 0 > /dev/vc/8
+
+/usr/sbin/set_battery_thresholds
+

@@ -1,0 +1,6 @@
+# 2009-06-28
+#
+# FN+F12
+
+event=ibm/hotkey HKEY 00000080 0000100c
+action=echo 4 > /proc/acpi/sleep

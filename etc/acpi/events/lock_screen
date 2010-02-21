@@ -1,0 +1,7 @@
+# 2009-07-16
+#
+# FN+F8
+
+event=ibm/hotkey HKEY 00000080 00001008
+
+action=/etc/acpi/actions/lock_screen.sh

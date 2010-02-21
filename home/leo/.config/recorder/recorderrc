@@ -1,0 +1,4 @@
+[paths]
+temp = /var/tmp/recorder
+dev = /dev/cdrw
+

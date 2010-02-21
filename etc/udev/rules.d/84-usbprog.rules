@@ -1,0 +1,9 @@
+# Atmel AVR ISP mkII
+ ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2104", GROUP="avrdev", MODE="0660"
+
+# usbprog bootloader
+ ATTRS{idVendor}=="1781", ATTRS{idProduct}=="0c62", GROUP="avrdev", MODE="0660"
+
+# USBasp programmer
+ ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", GROUP="avrdev", MODE="0660"
+

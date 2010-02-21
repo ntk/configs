@@ -1,0 +1,195 @@
+! --- [ misc ] ---
+
+XClock*update:        1
+XClock*background:    White
+XClock*foreground:    Black
+XClock*hands:         Gray80
+XClock*hourColor:     Blue
+XClock*minuteColor:   Red
+XClock*majorColor:    Black
+
+Xft.dpi:              96
+Xft.antialias:        true
+Xft.hinting:          true
+Xft.hintstyle:        hintfull
+Xft.rgba:             rgb
+
+! --- [ URxvt ] ---
+
+URxvt.geometry:       110x36
+!URxvt.background:    #000000
+URxvt.background:     rgba:0000/0000/0000/f1aa
+URxvt.foreground:     #ffffff
+URxvt.depth:          24
+URxvt.internalBorder: 5
+URxvt.transparent:    true
+URxvt.inheritPixmap:  true
+!URxvt.inheritPixmap: false
+URxvt.reverseVideo:   false
+URxvt.urgentOnBell:   true
+URxvt.tintColor:      #dddddd
+URxvt.shading:         5
+URxvt.fading:         50
+!URxvt.font:          -xos4-terminus-medium-r-*-*-14-*-*-*-*-*-iso8859-15
+!URxvt.font:          xft:Bitstream Vera Sans mono:size=10
+!URxvt.font:          xft:FreeSans:antialias=true:pixelsize=10.7
+!URxvt.font:          xft:DejaVu Sans Mono-11:dpi=81
+!URxvt.boldFont:      xft:DejaVu Sans Mono-11:bold:dpi=81
+!URxvt.itanicFont:    xft:DejaVu Sans Mono-11:itanic:dpi=81
+!URxvt.boldItanicFont:xft:DejaVu Sans Mono-11:boldintanic:dpi=81
+URxvt.font:           xft:DejaVu Sans Mono-11
+URxvt.boldFont:       xft:DejaVu Sans Mono-11:bold
+URxvt.itanicFont:     xft:DejaVu Sans Mono-11:itanic
+URxvt.boldItanicFont: xft:DejaVu Sans Mono-11:boldintanic
+
+URxvt.secondaryScroll:    true
+URxvt.scrollWithBuffer:   true
+!URxvt.scrollBar:         true
+URxvt.scrollBar:          false
+URxvt.scrollBar_floating: true
+URxvt.scrollBar_right:    true
+URxvt.scrollColor:        #242424
+URxvt.scrollTtyKeypress:  false
+URxvt.scrollTtyOutput:    false
+URxvt.saveLines:          5000
+URxvt.cursorBlink:        true
+URxvt.cursorColor:        #d8d8d8
+!URxvt.colorBD:           lightyellow
+URxvt.colorUL:            lightblue
+URxvt.visualBell:         false
+
+!URxvt.perl-lib:          /usr/lib/urxvt/perl/
+!URxvt.perl-ext-common:   digital-clock
+URxvt.perl-ext-common:    default,matcher,selection-autotransform
+!URxvt.perl-ext:           default,matcher
+URxvt.urlLauncher:        /usr/bin/links
+URxvt.selection-autotransform.0: s/^([^:[:space:]]+):(\\d+):?$/vi +$2 \\Q$1\\E\\x0d/
+
+!colors!
+!black
+!URxvt.color0:      #020202
+!URxvt.color8:      #757575
+!red
+!URxvt.color1:      #B00505
+!URxvt.color9:      #FF7272
+!green
+!URxvt.color2:      #0F7D06
+!URxvt.color10:     #AFD78A
+!yellow
+!URxvt.color3:      #C5A615
+!URxvt.color11:     #FFA75D
+!blue
+!URxvt.color4:      #235BA0
+!URxvt.color12:     #67CDE9
+!magenta
+!URxvt.color5:      #B11675
+!URxvt.color13:     #ECAEE9
+!cyan
+!URxvt.color6:      #31B799
+!URxvt.color14:     #36FFFC
+!white
+URxvt.color7:       #F0F0F0
+!URxvt.color15:			#FFFFFF
+
+
+! --- [ Aterm ] ---
+
+Aterm*loginShell:           true
+Aterm*transparent:          true
+Aterm*geometry:             130x50
+Aterm*shading:              10
+Aterm*background:           #000000
+Aterm*foreground:           #ffffff
+Aterm*scrollBar:            false
+Aterm*scrollBar_right:      true
+Aterm*transpscrollbar:      true
+Aterm*borderwidth:          0
+Aterm*saveLines:            5500
+Aterm*font:                 -misc-fixed-medium-r-normal-*-*-140-*-*-c-*-iso8859-1
+!Aterm*font:                *-*-dejavu sans mono-medium-r-normal-*-*-*-*-*-*-*-iso8859-1
+!Aterm*boldFont:            *-*-dejavu sans mono-bold-r-normal-*-*-*-*-*-*-*-iso8859-1
+!Aterm*font:                -*-*-*-*-*-sans-12-*-*-*-*-*-iso8859-1
+Aterm*fading:               70
+Aterm*cursorColor:          #d8d8d8
+Aterm*tinting:              gray
+
+
+! --- [ XTerm ] ---
+
+XTerm*jumpScroll:           true
+! multiScroll: asynchronous scolling -> faster XTerm
+XTerm*multiScroll:          true
+! colors
+XTerm*foreground:           white
+XTerm*background:           black
+! font
+XTerm*faceName:             Bitstream Vera Sans mono 
+XTerm*faceSize:             11
+XTerm*boldFont:             Bitstream Vera Sans mono 
+XTerm*saveLines:            5500
+XTerm*boldColors:           true
+XTerm*boldMode:             true
+!XTerm*colorBD:             red
+!XTerm*colorBDMode:         true
+XTerm*underLine:            true
+XTerm*colorULMode:          true
+XTerm*scrollTtyOutput:      false
+XTerm*scrollKey:            true
+XTerm*highlightColor:       black
+XTerm*cursorBlink:          true
+XTerm*cursorColor:          #D8D8D8
+!XTerm*pointerColor:        Red
+XTerm*internalBorder:       3
+XTerm*scrollBar:            false
+XTerm*rightScrollBar:       true
+XTerm*loginShell:           true
+XTerm*geometry:             110x38
+!XTerm*charClass:           33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48,35:48,58:48
+XTerm*colorUL:              blue
+XTerm*dynamicColors:        on
+XTerm*highlightSelection:   true
+XTerm*eightBitInput:        false
+XTerm*eightBitOutput:       true
+XTerm*modifier:             alt
+XTerm*titleInhibit:         true
+XTerm*visualBell:           false
+XTerm*cutNewline:           false
+XTerm*cutToBeginningOfLine: false
+
+
+! --- [ default colors ] ---
+
+*fontMenu*background: #000000
+*background:          #FFFFFF
+*foreground:          #000000
+!Colors
+! Black
+*color0:              #000000
+*color8:              #2E2E2E
+!*color0:             #5A5A5A
+!*color8:             #3e3e3e
+! Red
+*color1:              #FF4747
+*color9:              #FF6767
+! Green
+*color2:              #AFC81C
+*color10:             #BFC81C
+! Yellow
+*color3:              #FDD338
+*color11:             #F4D461
+! Blue
+*color4:              #619AF4
+*color12:             #5496FF
+! Purple
+*color5:              #5F5A90
+*color13:             #826AB1
+! Cyan
+*color6:              #47E0FF
+*color14:             #2ED9FB
+! White
+*color7:              #FFFFFF
+*color15:             #DEDEDE
+! Orange
+*color16:             #FFB000
+
+!vim:filetype=xdefaults foldmethod=marker autoindent expandtab shiftwidth=4

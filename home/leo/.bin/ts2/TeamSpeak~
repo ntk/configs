@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# This starup script will set the correct library path
+# and then startup the teamspeak binary.
+#
+
+export LD_LIBRARY_PATH=/home/leo/ts2:$LD_LIBRARY_PATH
+/home/leo/ts2/TeamSpeak.bin $*

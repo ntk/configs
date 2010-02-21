@@ -1,0 +1,149 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Last notes</title>
+<link rel="stylesheet" href="C1H_HTML.css" type="text/css">
+<style type="text/css">
+ p { margin-top: 0; margin-bottom: 0; }
+</style>
+<script language="JavaScript" src="DocToHelp.js">
+</script>
+</head>
+<body
+ style="background-color: #FFFFFF;
+        background-image: url(none);
+        background-repeat: no-repeat;"
+ onload="d2hload()"
+ onmousedown="d2hpopup()"
+>
+<div id="ienav">
+<ilayer id="nsnav">
+<p align="center">
+
+<a href="ts03-toc.htm" target="left">Contents</a> &nbsp;
+
+
+<a href="ts03-index.htm" target="right">Index</a> &nbsp;
+
+
+
+<a href="menuhelp.htm">Previous</a> &nbsp;
+<a href="lastnotes.htm">Next</a> &nbsp;
+
+
+</p>
+<br>
+<hr noshade size="1">
+</ilayer>
+</div>
+<p class=kop-2>Frequently Asked Questions</p>
+<p class=kop-2-p>&nbsp;</p>
+<p class=kop-2-p><b>Q: How do I set the codec I want to use?</b></p>
+<p class=platte-tekst>A: You can not set your own codec as user.
+Instead, the client automaticly conforms to the codec that is set for the channel you are in. So, if the channel is set to CELP 5.1, you will send and recieve CELP 5.1 encoded data. So if you want a different codec, you need to edit the channel options.</p>
+<p class=kop-2-p>&nbsp;</p>
+<p class=kop-2-p><b>Q: (Linux / ALSA) TS2 and q3 Don't work together on my SB 
+  live!</b> </p>
+<p class=platte-tekst>A:In some (or all?) alsa 0.9 modules it seems that it won't 
+  allow q3 to open the dsp in read/write mode after ts2 opened it. (I heard this 
+  reported for suse 8.0) You can try to get properly working modules from the 
+  <a href="http://www.alsa-project.org">alsa</a> website. or try the default kernel 
+  drivers for the SB - Live (emu10k1) 
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q:(Linux / ALSA) How do I get my cs46xx soundcard to work 
+  with ts during games?</b> </p>
+<p class=standaard>A: (Note: this might be obsoleted soon, and work by default) 
+  alsa 0.9 from cvs + 2.4 19 works, but not multi channel by default. To get multi 
+  channel working (let ts2 and your game run at the same time), get a recent snapshot 
+  (or cvs) of <a href="http://www.alsa-project.org">alsa</a>. Now you need to 
+  edit a file. Open the ~/alsa-cvs/alsa-driver/pci/cs46xx/Makefile file, and uncomment 
+  the lines under quote:</p>
+<p class=standaard> -------------------------------------------------------------------------------- 
+</p>
+<p class=standaard># Hack for new dsp flag </p>
+<p class=standaard>-------------------------------------------------------------------------------- 
+</p>
+<p class=standaard>Now, with that done, back out to the ~/alsa-cvs/ directory, 
+  and run make as root (because it installs all the modules and stuff. There is 
+  no make install target.</p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: (Linux) How do i get quake3 (and other games) and ts 
+  to work on my SB pci 128?</b></p>
+<p class=standaard>A: There seem to be 2 working solutions. 1: the SB128 PCI card, 
+  running the older chip with the ES1370 (not 1371) modules from alsa, can run 
+  2 dsp's. (/dev/dsp and /dev/adsp) Set teamspeak to use /dev/adsp and let the 
+  rest of the games use /dev/dsp (default) 2: (Note to sb live! users. DON'T use 
+  this. /dev/dsp1 routes to rear speakers) If you have a /dev/dsp0 AND a /dev/dsp1 
+  then this might work: make a link /dev/dsp -> /dev/dsp1 this will ensure that 
+  all games use the playback-only device configure teamspeak to use your /dev/dsp0 
+  This seems to work for a SB128 (ES1371). </p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: (Windows) When I use teamspeak shift is pressed all the 
+  time (crouch problem in CS) </b></p>
+<p class=standaard>A: It seems using direct input and recording at the same time, 
+  causes a very weird bug in directX. There is a simple solution: disable the 
+  NUM-Lock !!! That will help. An other way is to disable TS using direct Input 
+  (Settings->options->other->Disable direct Input) but that prevents key interception 
+  in most games. (Altough that is not a problem if you don't use keybinds ingame 
+  and don't use push-to-talk) Don't ask why, but it is a known Bug in other Voicetools, 
+  too. </p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: (Windows) My SB PCI 128 does not make ingame sounds when 
+  using ts2</b></p>
+<p class=standaard>A: This mostly occurs in win 98/me, using wave as output. The 
+  drivers can't handle more than 1 sound source. Set teamspeak to use direct sound 
+  as output driver. </p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: (Windows) My Soundblaster live/audigy makes a lot of 
+  static noise! </b></p>
+<p class=standaard>A: This occurs mostly on Windows XP. I still can't believe 
+  that creative always manages to write such bad drivers. In the forums people 
+  switching to project kx drivers seem to have solved the problem. Check <a href="http://www.kxproject.com">this 
+  page</a> for more info. </p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: Which ports does the ts2 client use? </b></p>
+<p class=standaard>A: The TS2 client uses 1 udp connection. It uses the whole 
+  1024-65535 (udp) range for source port and sends to port 8767 (udp) unless indicated 
+  otherwise. </p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: TS2 client reboots or BSOD my winxp machine!</b></p>
+<p class=standaard>A: It seems winxp has some crappy usb drivers installed by 
+  default. Best known is drivers for logitech wingman joysticks, but other usb 
+  hardware can have this problem too. Solution: try to get the latest drivers 
+  for all the usb hardware connected to your pc.</p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: I have something to say to the TeamSpeak team</b></p>
+<p class=standaard>A: Please go to the <a href="http://forum.teamspeak.org">forum</a> 
+  and post it there or go to the irc channel at quakenet.org #teamspeak.</p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: Will TeamSpeak stay freeware?</b></p>
+<p class=standaard>A: <b>YES!</b> If you are not using TeamSpeak commercially 
+  we won't charge you anything for it! Neither will we built in advertisements 
+  or make it shareware with trial versions. This program is for everybody and 
+  we enjoy it this way. Unless somebody offers millions of euro's for the application 
+  TeamSpeak will stay around a long time as freeware for everybody!</p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: My clan want TeamSpeak to sponsor a server</b></p>
+<p class=standaard>A: TeamSpeak at this point in time sponsors a few clans. We 
+  are not actively looking for clans that want to be sponsored. If you feel your 
+  clan should be sponsored nonetheless, send an e-mail to: wouter@teamspeak.org 
+  with all the information about your clan and all the things you would do to 
+  help TeamSpeak get wellknown and a better program. We only sponsor 1 clan per 
+  country per game and ladder. If you are from the UK, don't bother: we already 
+  sponsor over there. Our servers located in Germany so don't bother asking us 
+  if you live far away from that country. </p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: I am so happy with this program I want to help the developpera 
+  get rich and send them money even though the program is freeware!</b></p>
+<p class=standaard>A: Please send a mail to: sales@teamspeak.org We will give 
+  you the information where to send your money to ;)</p>
+<p class=standaard>&nbsp;</p>
+<p class=standaard><b>Q: I want to know more about the server and using TeamSpeak 
+  commercially</b></p>
+<p class=standaard>A: Please send an e-mail to: sales@teamspeak.org. We will respond 
+  to all of your questions a.s.a.p.</p>
+<p>&nbsp;</p>
+<div id="popupDiv">
+</div>
+</body>
+</html>

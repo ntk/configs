@@ -1,0 +1,33 @@
+TEAMSPEAK CLIENT LICENSE
+
+Version 2.0, August 2002
+
+(c) 2002, Dominating Bytes Design
+
+YOU SHOULD CAREFULLY READ THE FOLLOWING LICENSE AGREEMENT
+BEFORE INSTALLING THIS SOFTWARE PROGRAM. BY INSTALLING, 
+COPYING, OR OTHERWISE USING THE SOFTWARE PROGRAM, YOU AGREE
+TO BE BOUND BY THE TERMS OF THIS AGREEMENT. THIS LICENSE IS
+VALID FOR ALL RELATED MATERIALS ABOUT THE PRODUCT,
+INCLUDING ALL VERSIONS AND COPIES OF THE 'SOFTWARE PROGRAM'
+(ALSO CALLED 'TEAMSPEAK CLIENT') AND ALL OFFICIAL DOCUMENTS
+(WHETHER PRINTED OR ELECTRONICAL MATERIALS) THAT ARE 
+SUPPLIED WITH A COPYRIGHT NOTE OF THE DEVELOPERS 
+'DOMINATING BYTES DESIGN'.
+
+EVERYONE IS PERMITTED TO COPY AND DISTRIBUTE VERBATIM
+COPIES OF THIS LICENSE DOCUMENT, BUT CHANGING IT IS
+NOT ALLOWED. IT IS ALSO EXPRESSLY FORBIDDEN TO DO ANY
+REVERSE ENGINEERING ON THE 'SOFTWARE PROGRAM'.
+
+This software is provided 'as-is', without any express or 
+implied warranty.  In no event will the authors and/or 
+'Dominating Bytes Design' be held liable for any damages 
+arising from the use of this software.
+
+Every kind of using the 'Software Program' is only allowed with the
+acceptance of this license document. 'Using' defines installing, copying or providing
+the 'Software Program' for third-parties.
+
+The 'Software Program' ('Teamspeak Client') is a full freeware to everyone
+using it.

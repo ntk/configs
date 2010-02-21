@@ -1,0 +1,50 @@
+<!DOCTYPE QtCreatorSession>
+<qtcreator>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray" >AAAAD0VkaXRvck1hbmFnZXJWMgAAAAQAAABKAC8AaABvAG0AZQAvAGwAZQBvAC8AdABlAHMAdAAvAGcAdQBpAHQAcwB0AC8AdQBpAF8AbQBhAGkAbgB3AGkAbgBkAG8AdwAuAGgAAAAMAAAAABQAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEgALwBoAG8AbQBlAC8AbABlAG8ALwB0AGUAcwB0AC8AZwB1AGkAdABzAHQALwBtAGEAaQBuAHcAaQBuAGQAbwB3AC4AYwBwAHAAAAAMAAAAABQAAAAAAAAAAAAAAAAAAAABAAAAAAAAADwALwBoAG8AbQBlAC8AbABlAG8ALwB0AGUAcwB0AC8AZwB1AGkAdABzAHQALwBtAGEAaQBuAC4AYwBwAHAAAAAMAAAAABQAAAAAAAAAAAAAAAAAAAABAAAAAAAAADwALwBoAG8AbQBlAC8AbABlAG8ALwB0AGUAcwB0AC8AZwB1AGkAdABzAHQALwBNAGEAawBlAGYAaQBsAGUAAAAMAAAAABQAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAUAAABGAC8AaABvAG0AZQAvAGwAZQBvAC8AdABlAHMAdAAvAGcAdQBpAHQAcwB0AC8AbQBhAGkAbgB3AGkAbgBkAG8AdwAuAHUAaQAAABoAbQBhAGkAbgB3AGkAbgBkAG8AdwAuAHUAaQAAAApGb3JtRWRpdG9yAAAAPAAvAGgAbwBtAGUALwBsAGUAbwAvAHQAZQBzAHQALwBnAHUAaQB0AHMAdAAvAE0AYQBrAGUAZgBpAGwAZQAAABAATQBhAGsAZQBmAGkAbABlAAAAEVBsYWluIFRleHQgRWRpdG9yAAAAPAAvAGgAbwBtAGUALwBsAGUAbwAvAHQAZQBzAHQALwBnAHUAaQB0AHMAdAAvAG0AYQBpAG4ALgBjAHAAcAAAABAAbQBhAGkAbgAuAGMAcABwAAAACkMrKyBFZGl0b3IAAABIAC8AaABvAG0AZQAvAGwAZQBvAC8AdABlAHMAdAAvAGcAdQBpAHQAcwB0AC8AbQBhAGkAbgB3AGkAbgBkAG8AdwAuAGMAcABwAAAAHABtAGEAaQBuAHcAaQBuAGQAbwB3AC4AYwBwAHAAAAAKQysrIEVkaXRvcgAAAEoALwBoAG8AbQBlAC8AbABlAG8ALwB0AGUAcwB0AC8AZwB1AGkAdABzAHQALwB1AGkAXwBtAGEAaQBuAHcAaQBuAGQAbwB3AC4AaAAAAB4AdQBpAF8AbQBhAGkAbgB3AGkAbgBkAG8AdwAuAGgAAAAKQysrIEVkaXRvcg==</value>
+ </data>
+ <data>
+  <variable>OpenEditors</variable>
+  <value type="int" >5</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap" />
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >/home/leo/test/guitst/guitst.pro</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString" >/home/leo/test/guitst/guitst.pro</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString" >Edit</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList" />
+ </data>
+ <data>
+  <variable>value-ProjectWindow/Panel</variable>
+  <value type="int" >-1</value>
+ </data>
+ <data>
+  <variable>value-Watchers</variable>
+  <valuelist type="QVariantList" />
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >ActiveMode</value>
+   <value type="QString" >Breakpoints</value>
+   <value type="QString" >ProjectWindow/Panel</value>
+   <value type="QString" >Watchers</value>
+  </valuelist>
+ </data>
+</qtcreator>
